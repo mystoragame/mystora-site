@@ -19,8 +19,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="/myntora-site/Myntora_Favicon.png" alt="Myntora Logo" className="logo-img" />
-        <h1 className="logo-text">MYNTORA</h1>
+        <img src="/mystora-site/mystora_Favicon.png" alt="mystora Logo" className="logo-img" />
+        <h1 className="logo-text">mystora</h1>
       </div>
 
 

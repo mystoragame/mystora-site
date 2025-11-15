@@ -23,7 +23,7 @@ const Games = () => {
     <div className="games-wrapper">
       <div className="games-header">
         <p className="games-label">📁 CASE ARCHIVE – ACCESS LEVEL: PUBLIC</p>
-        <h1 className="games-title">Myntora Game Files</h1>
+        <h1 className="games-title">Mystora Game Files</h1>
         <p className="games-tagline">Uncover puzzles. Solve mysteries. One file at a time.</p>
       </div>
 

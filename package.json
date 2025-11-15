@@ -1,8 +1,8 @@
 {
-  "name": "myntora-site",
+  "name": "mystora-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myntora.github.io/myntora-site",
+  "homepage": "https://mystora.github.io/mystora-site",
   "dependencies": {
     "@csstools/normalize.css": "^12.1.1",
     "@testing-library/dom": "^10.4.0",

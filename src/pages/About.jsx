@@ -6,37 +6,75 @@ const About = () => {
     <div className="about-split-container">
       <div className="about-left">
         <div className="intro-header">
-          <p className="intro-label">📁 MYNTORA DOSYA NO.001 – CLASSIFIED</p>
+          <p className="intro-label">📁 Mystora ARCHIVE FILE — CLASSIFIED</p>
         </div>
 
         <h1>Welcome, Investigator.</h1>
-        <p className="tagline">You're about to uncover who we are behind the case files.</p>
+        <p className="tagline">You’ve accessed the internal dossier of the Mystora Agency.</p>
 
         <section>
-          <h2>Agency Profile</h2>
-          <p><strong>Myntora</strong> is not just a game studio — we’re a narrative bureau. We design printable escape room games and detective mysteries that blend storytelling, logic, and emotion.</p>
+          <h2>Who We Are</h2>
+          <p>
+            <strong>Mystora</strong> is an independent creative studio specializing in
+            printable mystery games, crime case files, and narrative-driven escape room experiences.
+            We combine storytelling, puzzle design, and cinematic world-building to create
+            immersive adventures you can play anywhere.
+          </p>
 
-          <h2>Case Formats We Deploy</h2>
+          <h2>What We Create</h2>
           <ul>
-            <li><strong>🕵️ Detective Mystery Games:</strong> Reconstruct crime scenes, analyze suspect files, and piece together motives.</li>
-            <li><strong>🔐 Escape Room Scenarios:</strong> Timed challenges, layered puzzles, and narrative-driven breakthroughs.</li>
+            <li>
+              <strong>🕵️ Crime & Detective Mysteries:</strong> Analyze crime scenes, examine evidence, and
+              uncover hidden motives through realistic case files.
+            </li>
+            <li>
+              <strong>🔐 Escape Room Challenges:</strong> Layered puzzles, timed missions, and
+              narrative clues that pull you deeper into each story.
+            </li>
+            <li>
+              <strong>📚 Story-Rich Printables:</strong> Designed to be both entertaining and cinematic,
+              perfect for solo players, couples, groups, and classrooms.
+            </li>
           </ul>
 
-          <h2>Signature Methods</h2>
-          <p>Every Myntora game is handcrafted like a real case file. We choose emotion over noise, subtlety over spectacle. If you're looking for meaning, you’re in the right archive.</p>
+          <h2>Our Approach</h2>
+          <p>
+            Every Mystora game is designed with the philosophy that mysteries should feel
+            personal. We focus on atmosphere, emotion, and the small details that make a case
+            come alive. Nothing is random — everything is a clue.
+          </p>
 
-          <h2>Chronicle</h2>
-          <p>Established in <strong>May 2025</strong> by <strong>Morgan Thorne</strong>, Myntora started as a secret project and evolved into a platform for immersive, story-rich investigations.</p>
+          <h2>Our Origin Story</h2>
+          <p>
+            Established in <strong>2025</strong>, Mystora began as a passion project and
+            quickly grew into a dedicated creative brand committed to crafting premium,
+            story-driven mystery games for a global audience.
+          </p>
 
-          <h2>Field Office</h2>
+          <h2>Contact & Access</h2>
           <ul className="contact-info">
-            <li><strong>📍 HQ:</strong> New York, United States</li>
-            <li><strong>📧 Contact:</strong> <a href="mailto:morgan@myntora.com">morgan@myntora.com</a></li>
-            <li><strong>🛒 Archive Access:</strong> <a href="https://myntora.etsy.com" target="_blank" rel="noopener noreferrer">myntora.etsy.com</a></li>
+            <li>
+              <strong>📧 Email:</strong>{' '}
+              <a href="mailto:mystoragames@gmail.com">mystoragames@gmail.com</a>
+            </li>
+            <li>
+              <strong>🛒 Etsy Archive:</strong>{' '}
+              <a
+                href="https://Mystoragames.etsy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mystora.etsy.com
+              </a>
+            </li>
           </ul>
 
-          <h2>Why This File Exists</h2>
-          <p>This is not just play. This is immersion, intellect, and intuition. You don’t just open a Myntora case — you become a part of it. And when it’s over, it stays with you.</p>
+          <h2>Our Mission</h2>
+          <p>
+            Mystora exists to turn storytelling into an experience. When you open a Mystora
+            case, you’re not just playing a game — you’re stepping into a living world filled
+            with secrets, motives, and unforgettable revelations.
+          </p>
         </section>
       </div>
     </div>
