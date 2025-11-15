@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mystora-site/static/css/main.154341bc.css",
+    "main.js": "/mystora-site/static/js/main.51898fd5.js",
+    "static/js/453.1d403854.chunk.js": "/mystora-site/static/js/453.1d403854.chunk.js",
+    "index.html": "/mystora-site/index.html",
+    "main.154341bc.css.map": "/mystora-site/static/css/main.154341bc.css.map",
+    "main.51898fd5.js.map": "/mystora-site/static/js/main.51898fd5.js.map",
+    "453.1d403854.chunk.js.map": "/mystora-site/static/js/453.1d403854.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.154341bc.css",
+    "static/js/main.51898fd5.js"
+  ]
+}
