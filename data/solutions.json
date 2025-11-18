@@ -22,5 +22,51 @@
       "reed"
     ],
     "fullSolutionText": "Noah Reed is the one who silenced Derek Harper. The evidence converges around him: the fingerprint on the photo frame beside Derek’s bed, the tense 1:58 AM phone call where Derek demanded control over Noah once again, and Noah being the only person awake, calm, and unaccounted for during the critical time window. Derek’s long history of manipulation—turning Noah’s scholarship into a form of ownership—had pushed Noah into years of resentment and quiet suffering. On Thanksgiving night, after Derek attempted to confront Lydia, he redirected his anger toward Noah, escalating their final call. Emotionally exhausted and driven by a need to end the cycle, Noah returned to Room 3B while Derek slept. The smothering left no defensive wounds, matching the forensics. He acted not out of rage, but out of a cold, steady resolve: to end Derek’s control the same way it had always been exercised—quietly, subtly, and without a sound."
+  },
+  {
+    "slug": "the-last-note",
+    "title": "The Last Note",
+    "type": "text",
+    "prompt": "Who killed Victor Bellamy?",
+    "answer": [
+      "julian harris",
+      "harris",
+      "julian",
+      "the former assistant",
+      "victor’s assistant"
+    ],
+    "fullSolutionText": "You connected the access log, the reversed musical motif, the toxicology, and the witness testimony. Julian Harris is the killer.",
+    "reveal": {
+      "verdict": "Homicide by Julian Harris",
+      "motive": "Professional resentment, humiliation after being dismissed, and a symbolic desire to reclaim authorship over musical work Victor allegedly stole.",
+      "method": "A lethal dose of Lorazepam mixed into Victor Bellamy’s morning coffee. The sedative was administered shortly before 06:30 AM, leading to collapse within minutes.",
+      "evidence": [
+        "The reversed musical motif on the victim’s final score matches a composition created by Julian, functioning as a personal signature.",
+        "Access logs show Victor’s entry code used at 06:31 AM while Victor was already inside, indicating unauthorized access by someone who knew the code.",
+        "Partial fingerprints on the mug and desk drawer match the same unidentified source—consistent with someone handling the mug briefly to mix sedatives.",
+        "Witness Meredith Addison heard two people arguing at 1:30 AM and later recognized a voice resembling Julian’s.",
+        "Julian’s early-morning missed call (06:32 AM) aligns suspiciously with the estimated time of death."
+      ],
+      "timeline": [
+        "10:20 PM – Victor enters the studio (confirmed by security footage).",
+        "10:40 PM – Last confirmed conversation with Victor (Eleonor Porter).",
+        "1:30 AM – Neighbor hears an argument between two voices.",
+        "06:04 AM – Victor answers a call sounding groggy and disoriented.",
+        "06:31 AM – Studio access code used by someone other than Victor.",
+        "06:48 AM – Digital wall clock freezes; matches estimated TOD.",
+        "07:21 AM – Body discovered in Studio 3A."
+      ],
+      "epilogue": "By identifying the true significance of the reversed motif, the early-morning access log, and the fast-acting sedative, you proved that Julian Harris exploited his knowledge of Victor’s routines. Case closed."
+    },
+    "incorrect": {
+      "generic": "Not quite — review the handwritten score, the 06:31 AM access log, and the toxicology timeline.",
+      "bySuspect": {
+        "eleonor porter": "Eleonor’s actions fit the timeline, but she provides the only call at 06:04 AM proving Victor was still alive. Her motive and means are weak.",
+        "meredith addison": "Meredith heard the argument but never entered the studio. Her testimony helps identify the killer, not implicate her.",
+        "adrian cole": "Adrian had conflict with Victor, but no access code or opportunity during the 06:30 window."
+      }
+    },
+    "version": "2025-11-18a",
+    "cta": "Play another case"
   }
 ]

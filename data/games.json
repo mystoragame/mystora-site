@@ -12,5 +12,12 @@
         "description": "A chilling Thanksgiving mystery set in a storm-battered mansion. Derek Harper is found dead in Room 3B at dawn — no struggle, no marks, only silence. Every family member hides something… but who turned that silence into murder?",
         "imageUrl": "/mystora-site/images/the-silent-thanksgiving.png",
         "etsyLink": "https://www.etsy.com/listing/________"
+    },
+    {
+        "id": "the-last-note",
+        "title": "The Last Note",
+        "description": "Crack the case of a mysterious death using clues hidden in notes, files, and evidence.",
+        "imageUrl": "/mystora-site/images/the-last-note.png",
+        "etsyLink": "https://www.etsy.com/listing/________"
     }
 ]
