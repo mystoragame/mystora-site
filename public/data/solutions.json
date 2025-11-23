@@ -68,5 +68,405 @@
     },
     "version": "2025-11-18a",
     "cta": "Play another case"
+  },
+  {
+    "slug": "one-hour-left",
+    "title": "One Hour Left",
+    "type": "choice",
+    "prompt": "Detective Unit 4 – You have one hour to decide Michael Grant’s fate. Should the execution proceed?",
+    "options": [
+      "Proceed with Execution (Guilty)",
+      "Issue Emergency Stay (Innocent)"
+    ],
+    "outcomes": {
+      "Proceed with Execution (Guilty)": {
+        "verdictLabel": "You Let Justice Run Its Course",
+        "profile": {
+          "label": "The Realist",
+          "description": "You trust the system more than emotion. Evidence, though imperfect, must hold weight; otherwise, chaos rules."
+        },
+        "reasoning": [
+          "Michael’s fingerprints were found on the door handle.",
+          "The murder weapon was discovered near his residence.",
+          "His closest friend attempted to provide a false alibi.",
+          "No definitive proof of another suspect exists."
+        ],
+        "contradictions": [
+          "Inconsistencies in witness timelines might be coincidence, not conspiracy.",
+          "Digital evidence can be faked, but so can emotion.",
+          "The court already decided; revisiting it risks undermining due process."
+        ],
+        "closing": "You accepted the possibility of imperfection in justice. To you, the law is only as strong as its final verdict, even if it may break a human heart."
+      },
+      "Issue Emergency Stay (Innocent)": {
+        "verdictLabel": "You Chose to Halt the Execution",
+        "profile": {
+          "label": "The Empath",
+          "description": "You believe justice must evolve — that mercy and doubt are part of truth, not weakness."
+        },
+        "reasoning": [
+          "Autopsy reports indicate a left-handed killer; Michael is right-handed.",
+          "A blond hair was found in the victim’s hand — does not match her own or Michael’s.",
+          "Julia Carter lied about receiving a call that records prove happened.",
+          "The threatening messages from 'Unknown Contact' suggest another suspect."
+        ],
+        "contradictions": [
+          "Delaying justice risks freeing the guilty.",
+          "Evidence of innocence is circumstantial, not conclusive.",
+          "Michael’s emotional composure could be read as guilt or as resignation."
+        ],
+        "closing": "You saved a man’s life — for now. But truth is fragile, and so is time. Mercy may have given him another chance… or delayed the inevitable."
+      }
+    },
+    "fullSolutionText": "There is no definitive answer. Only reflection. Your decision shapes not only the ending, but the kind of detective — and person — you are."
+  },
+  {
+    "slug": "room-103",
+    "title": "Room 103",
+    "type": "verdict",
+    "prompt": "Submit your verdict for Room 103.",
+    "verdict": {
+      "q1": {
+        "prompt": "Given the evidence, is the death a:",
+        "options": [
+          "Suicide",
+          "Murder",
+          "Undetermined"
+        ],
+        "answer": "Murder"
+      },
+      "q2": {
+        "prompt": "If you believe it’s a murder, who is the killer?",
+        "options": [
+          "Daniel Carter (Partner)",
+          "Unknown Male (Lobby Silhouette)",
+          "Hotel Staff",
+          "Other"
+        ],
+        "answer": "Daniel Carter (Partner)"
+      }
+    },
+    "incorrect": {
+      "generic": "That reading misses key contradictions in the scene and statements. Re-evaluate access, motive, and the ingestion setup.",
+      "bySuspect": {
+        "Unknown Male (Lobby Silhouette)": "The silhouette was never forensically tied to the room—no prints, no phone overlap, no verified contact. It’s a tempting red herring.",
+        "Hotel Staff": "Shift logs and access records place staff on routine rounds; no staff biometrics or prints match the wine bottle or glassware.",
+        "Other": "No evidence-supported suspect fits better than the partner. If you name one, anchor it to access and a plausible method."
+      }
+    },
+    "fullSolutionText": "You followed the strongest line: with means, motive, and opportunity converging, the partner is the most consistent culprit.",
+    "reveal": {
+      "verdict": "Final: Murder",
+      "motive": "Jealousy and perceived betrayal after escalating conflict; control dynamics visible in recent messages.",
+      "method": "Poisoned drink staged as a voluntary ingestion. The setup mimics self-harm but fails on access and sequencing details.",
+      "evidence": [
+        "Message history shows escalating arguments and possessive language from the partner.",
+        "Partner had unsupervised access to the victim’s belongings and room-adjacent window of time.",
+        "Glassware/serving order inconsistent with solitary late-night drinking pattern.",
+        "Phone silence and delayed responses from the partner during the critical window."
+      ],
+      "timeline": [
+        "≈ 01:40–01:55 A.M. — Contact window where access to room was most plausible.",
+        "≈ 02:14–03:05 — Multiple unanswered calls to the partner (phone on silent per his claim).",
+        "Discovery — Staged scene suggests voluntary ingestion, but sequencing contradicts a true solo act."
+      ],
+      "epilogue": "Alternative leads (e.g., the lobby silhouette) remain uncorroborated. The partner’s proximity, motive, and the staging inconsistencies point most directly to him."
+    }
+  },
+  {
+    "slug": "the-memory-loop",
+    "title": "The Memory Loop",
+    "type": "text",
+    "prompt": "Enter the single-word answer to break the memory loop.",
+    "answer": [
+      "CYCLE",
+      "LOOP",
+      "REPEAT"
+    ],
+    "fullSolutionText": "Loop broken. You’ve escaped the cycle of memory."
+  },
+  {
+    "slug": "the-lighthouse-keeper",
+    "title": "The Lighthouse Keeper: Murder at Hollow Point",
+    "type": "text",
+    "prompt": "Who killed Thomas Hale?",
+    "answer": [
+      "captain edwin marsh",
+      "edwin marsh",
+      "marsh"
+    ],
+    "fullSolutionText": "Captain Edwin Marsh confronted Thomas Hale inside the lighthouse during the storm of November 3rd, 1989. Their long-standing resentment and jealousy over Lydia Hale led to a violent argument. Hale fell from the staircase after being struck during the struggle, hitting the railing before the floor. The dual impact found in the forensic report confirms this. To avoid scandal and protect the town’s reputation, Chief Griggs ordered the death ruled as accidental, and Noah Price manipulated the weather records to erase the crucial 23:10–23:40 window. For decades, Hollow Point lived by silence—its people choosing peace over truth. You’ve uncovered what the sea and the storm tried to bury."
+  },
+  {
+    "slug": "all-of-you",
+    "title": "All of You – Serial Killer Bundle",
+    "type": "text",
+    "prompt": "Who was the killer behind all 4 cases?",
+    "answer": "daniel",
+    "fullSolutionText": "You connected the murders. The inconsistencies. The hidden clues. Daniel was the link."
+  },
+  {
+    "slug": "maze-exit-code",
+    "title": "Maze: Final Exit Code",
+    "prompt": "Enter the 6-digit direction code as LEFT (L) and RIGHT (R), e.g., LRLRRL",
+    "type": "text",
+    "answer": [
+      "LRLRRL",
+      "lrlrrl",
+      "LrLrRl"
+    ],
+    "fullSolutionText": "You found the correct exit path through the maze. Welcome back from the dark."
+  },
+  {
+    "slug": "A Deadly Encore",
+    "title": "A Deadly Encore – Solo Detective Game",
+    "type": "text",
+    "prompt": "Who do you think committed the murder?",
+    "answer": [
+      "lena",
+      "Lena Hart"
+    ],
+    "fullSolutionText": "You’ve uncovered the truth behind A Deadly Encore. Justice is served."
+  },
+  {
+    "slug": "the-last-appointment",
+    "title": "The Last Appointment",
+    "type": "text",
+    "prompt": "Who killed Dr. Rachel Lorne?",
+    "answer": [
+      "dr sienna hale",
+      "sienna hale",
+      "sienna",
+      "hale"
+    ],
+    "fullSolutionText": "You traced the timing, inconsistencies, and pharmacology. Dr. Sienna Hale is the killer.",
+    "reveal": {
+      "verdict": "Homicide by Dr. Sienna Hale",
+      "motive": "Professional rivalry and risk management; the victim had warned that someone was in her files.",
+      "method": "A lethal Triazolam dose potentiated by wine, staged as a locked-room self-harm.",
+      "evidence": [
+        "CCTV shows Hale entering at 19:59 and no recorded exit before TOD.",
+        "Vial with no prints; unknown partial on the glass.",
+        "Door locked from inside; spare unlabeled key in the desk; phone missing."
+      ],
+      "timeline": [
+        "19:59 – Hale enters the floor.",
+        "20:52 – Silent/panic alarm response.",
+        "~21:12 – Estimated time of death.",
+        "21:15 – Body discovered, scene staged."
+      ],
+      "epilogue": "You didn’t just name the killer—you proved the motive and the method. Case closed."
+    },
+    "incorrect": {
+      "generic": "Close—recheck CCTV timing (19:59), the toxicology, and the locked-door staging.",
+      "bySuspect": {
+        "lucien blake": "Last appointment is a red herring. CCTV shows a woman entering at 19:59, and the pharmacology points elsewhere.",
+        "alan ridge": "Emotional motive aside, the sedative dose and staged room require clinical access and knowledge.",
+        "mara cole": "Paperwork anomalies ≠ homicide. Who actually lied about being in the building?"
+      }
+    },
+    "version": "2025-09-20a",
+    "cta": "Play another case"
+  },
+  {
+    "slug": "the-justice-cutter-cases",
+    "title": "The Justice Cutter — Case Mapping",
+    "type": "case-matcher",
+    "prompt": "Pick the correct crime for each case.",
+    "cases": [
+      {
+        "id": "c1",
+        "label": "Case 1 — The Accuser’s Thumb",
+        "answer": "Defamation"
+      },
+      {
+        "id": "c2",
+        "label": "Case 2 — The Devoted Believer",
+        "answer": "Complicity by Blind Faith"
+      },
+      {
+        "id": "c3",
+        "label": "Case 3 — The Unrepentant Flame",
+        "answer": "Cruelty / Scorn"
+      },
+      {
+        "id": "c4",
+        "label": "Case 4 — The Faithful Betrayal",
+        "answer": "Betrayal in Silence"
+      },
+      {
+        "id": "c5",
+        "label": "Case 5 — The Watching Eye",
+        "answer": "Abandonment of Innocence"
+      }
+    ],
+    "options": [
+      "Defamation",
+      "Complicity by Blind Faith",
+      "Cruelty / Scorn",
+      "Betrayal in Silence",
+      "Abandonment of Innocence",
+      "Negligence",
+      "Obstruction of Justice",
+      "Witness Intimidation",
+      "False Testimony",
+      "Aiding and Abetting"
+    ],
+    "fullSolutionText": "Each case mirrors one judgment: accusation → defamation, blind faith → complicity, scorn → cruelty, loyal silence → betrayal, and the unprotected child → abandonment of innocence.",
+    "reveal": {
+      "verdict": "You mapped all five cases correctly.",
+      "evidence": [
+        "Case 1 aligns with weaponized accusation → Defamation.",
+        "Case 2 centers on unquestioning loyalty → Complicity by Blind Faith.",
+        "Case 3 is open mockery and harm → Cruelty / Scorn.",
+        "Case 4 keeps quiet to stay loyal → Betrayal in Silence.",
+        "Case 5 watches but does not protect → Abandonment of Innocence."
+      ]
+    },
+    "incorrect": {
+      "generic": "One or more cases are mismatched. Re-read the case notes and the finger symbolism."
+    },
+    "version": "2025-09-21b",
+    "cta": "Play another case"
+  },
+  {
+    "slug": "forty-eight-hours",
+    "title": "Forty-Eight Hours: A Cyanide Mystery",
+    "type": "text",
+    "prompt": "Who poisoned Ethan Cole?",
+    "answer": [
+      "daniel harper",
+      "harper",
+      "mr harper",
+      "daniel"
+    ],
+    "fullSolutionText": "You pieced together the forensics, receipts, and draft article. Daniel Harper is guilty.",
+    "reveal": {
+      "verdict": "Homicide by Daniel Harper",
+      "motive": "To prevent Ethan Cole from publishing an exposé that would destroy Harper & Cole Technologies and expose fraudulent supplement ties.",
+      "method": "Harper tampered with a bottle of 'Vitamin Boost – Energy Formula,' disguising it with a counterfeit label and ensuring Ethan consumed it within 48 hours.",
+      "evidence": [
+        "Draft article directly names Harper & Cole Technologies in the fraud.",
+        "Lot code K3T-482 from the foil fragment matches the counterfeit bottle.",
+        "Transaction log shows the package delivery under suspicious initials.",
+        "Harper’s message: 'Some doors can’t be closed once opened.'"
+      ],
+      "timeline": [
+        "Sept 19 – Heated argument with Ethan at the office.",
+        "Sept 20 13:20 – Package delivered (Harper orchestrated counterfeit supplement).",
+        "Sept 20 evening – Ethan consumed supplement believing it was legitimate.",
+        "Sept 21 morning – Ethan collapses, later reports his own murder."
+      ],
+      "epilogue": "You didn’t just name the killer—you reconstructed the fraud, the package tampering, and Harper’s motive. Case closed."
+    },
+    "incorrect": {
+      "generic": "Not quite. Recheck the online order (lot code K3T-482), Harper’s threats, and the draft article evidence.",
+      "bySuspect": {
+        "clara mitchell": "Her brand looks guilty, but the lot code doesn’t match her production. Labels were counterfeit.",
+        "marcus alvarez": "Chemicals fit the profile, but his inventory was intact and alibi supported.",
+        "lena carter": "She had motive from financial strain, but her alibi during the package delivery is solid.",
+        "noah reed": "Almond syrup is a red herring; the poison source came from the counterfeit bottle."
+      }
+    },
+    "version": "2025-09-21a",
+    "cta": "Play another case"
+  },
+  {
+    "slug": "the-fifth-witness",
+    "title": "The Fifth Witness",
+    "type": "text",
+    "prompt": "Who was the fifth witness?",
+    "answer": [
+      "mercer",
+      "detective mercer",
+      "d.r. mercer"
+    ],
+    "fullSolutionText": "You found the truth. The fifth witness never existed — he was the detective who wrote the reports, signed the autopsy, and hid behind his own handwriting. Detective Mercer was at the scene, his memory split into four voices so he could live with what he’d done. The lavender on her hands, the reflection in the glass, the erased minutes... were all his. He didn’t remember her death — he remembered the guilt."
+  },
+  {
+    "slug": "trick-or-treat-gone-wrong",
+    "title": "Trick or Treat Gone Wrong",
+    "type": "text",
+    "prompt": "Who murdered Brooke Miller on Halloween night?",
+    "answer": [
+      "noah",
+      "noah price"
+    ],
+    "fullSolutionText": "You uncovered the truth: Noah Price engineered the perfect blackout to silence Brooke Miller — and the town’s forgotten secret.",
+    "reveal": {
+      "verdict": "Homicide by Noah Price",
+      "motive": "To conceal his involvement in the 2022 electrical fire that killed Harold Miller. Brooke had uncovered proof linking him to both incidents.",
+      "method": "Noah manually looped the breaker wiring at 14 Elm Street, causing a planned power outage at 11:45 PM. Under the cover of darkness, he struck Brooke with a blunt object and later staged the 'LIE' pumpkins to frame Claire Young.",
+      "evidence": [
+        "Electrical panel inspection revealed deliberate wire looping matching Noah’s prior maintenance signature.",
+        "Box-cutter residue and matching tool marks from Noah’s kit identified on all three pumpkins.",
+        "DNA from pumpkin stems confirmed Noah’s handling postmortem.",
+        "Doorbell recording contained Noah’s whisper at [0:09] ('Just end it'), verified through 95% voiceprint match.",
+        "Officer Myers’ 2022 case notes referenced identical breaker cut angles from the Miller Sweet Shop fire.",
+        "Tara Jenkins confirmed Brooke obtained the candy recorder from her, which contained fragments exposing Noah’s name."
+      ],
+      "timeline": [
+        "10:30 PM — Pumpkins observed uncarved by witnesses.",
+        "11:15 PM — Brooke argues with Claire: 'You can’t keep lying forever.'",
+        "11:35 PM — Brooke positions pumpkins by the fireplace.",
+        "11:45 PM — Power outage triggered; scream heard seconds later.",
+        "11:47 PM — Brooke found unresponsive; candles still unlit.",
+        "11:56 PM — Officer Myers arrives; Noah calm, near the panel.",
+        "00:12 AM — Forensics log shows Noah’s fingerprints and tool residue on panel box."
+      ],
+      "epilogue": "Noah Price masked his crime beneath the flicker of a Halloween prank. The same man who once 'fixed' the shop wiring that killed Harold Miller ended another Miller life to keep that secret buried. Officer Myers’s silence let him hide a year longer — but every lie leaves its trace, even when carved in pumpkin flesh."
+    },
+    "incorrect": {
+      "generic": "Not quite. Think about who had access to the electrical panel, the technical skill to manipulate the breakers, and a reason to silence Brooke permanently.",
+      "bySuspect": {
+        "claire": "Claire lied, yes — but she was hiding guilt over silence, not murder.",
+        "evan": "Evan’s footage caught the sound of the killer, not his own crime.",
+        "liam": "He set the scene by mistake but never touched the panel.",
+        "tara": "She gave Brooke the candy bag, not the death sentence.",
+        "officer myers": "He protected Noah through negligence, not intent."
+      }
+    },
+    "version": "2025-10-16a",
+    "cta": "Play another case"
+  },
+  {
+    "slug": "silent-night-deadly-secret",
+    "title": "Silent Night, Deadly Secret",
+    "type": "text",
+    "prompt": "Who killed Harold Finch at the Evergreen Charity Gala?",
+    "answer": [
+      "tina mallory",
+      "mallory",
+      "tina"
+    ],
+    "fullSolutionText": "You uncovered the truth. Event coordinator Tina Mallory orchestrated Harold Finch’s death during the blackout at the Evergreen Charity Gala. She poisoned his mulled wine moments before cutting the power to mask the act. Motive: revenge for years of manipulation and professional humiliation under Finch’s control. Method: ethyl cyanohydrin, introduced through the drink during her timed call to the bar at 8:13 PM. Evidence: the bar call record, Nick Carson’s statement about a woman’s voice giving orders, and Tina’s final message — 'Everyone will get exactly what they deserve.'",
+    "reveal": {
+      "verdict": "Homicide by Tina Mallory",
+      "motive": "Revenge and retribution after years of professional manipulation and personal betrayal by Harold Finch.",
+      "method": "Poisoned mulled wine prepared under the pretext of bar coordination minutes before the power outage.",
+      "evidence": [
+        "Bar call record at 8:13 PM initiated by Tina.",
+        "Witness Nick Carson heard a female voice giving an instruction to serve Finch’s drink.",
+        "Tina’s threatening messages: 'Details are what kill you' and 'Enjoy your wine.'",
+        "Zoning of the blackout matched the electrical panel controlled from her station."
+      ],
+      "timeline": [
+        "8:10 PM — Finch receives his final drink.",
+        "8:13 PM — Tina calls the bar to confirm 'service sequence.'",
+        "8:14–8:17 PM — Planned blackout hides the poisoning moment.",
+        "8:18 PM — Lights return; Finch collapses beside the tree."
+      ],
+      "epilogue": "Tina Mallory’s calm coordination masked her guilt until the digital evidence exposed the truth. Justice, like Christmas lights, flickers only when someone decides to turn it on."
+    },
+    "incorrect": {
+      "generic": "Re-evaluate who had access to the bar, control of the lighting, and a clear motive tied to revenge and timing. The truth hides in the blackout.",
+      "bySuspect": {
+        "clara finch": "Emotional motive alone doesn’t match the precision of the poisoning or control of the blackout.",
+        "evan brooks": "His statements are contradictory, but his lack of technical access rules him out.",
+        "nick carson": "He witnessed part of the setup but never left his post near the control booth."
+      }
+    },
+    "version": "2025-11-07a",
+    "cta": "Play another case"
   }
 ]

@@ -1,12 +1,5 @@
 [
     {
-        "id": "the-last-note",
-        "title": "The Last Note",
-        "description": "Crack the case of a mysterious death using clues hidden in notes, files, and evidence.",
-        "imageUrl": "/mystora-site/images/the-last-note.png",
-        "etsyLink": "https://www.etsy.com/listing/4308796568/the-last-note-printable-murder-mystery?ref=shop_home_active_3&pro=1&logging_key=f974f5a6fffe7cb243fd6140ab580ad268798e94%3A4308796568"
-    },
-    {
         "id": "the-memory-loop",
         "title": "The Memory Loop",
         "description": "Decode fragmented memories to solve a psychological mystery.",
@@ -91,24 +84,10 @@
         "etsyLink": "https://www.etsy.com/listing/4388222062/trick-or-treat-gone-wrong-o-halloween?ref=shop_home_active_1&pro=1&sts=1&dd=1"
     },
     {
-        "id": "Murder-at-the-Thanksgiving-Feast",
-        "title": "Murder at the Thanksgiving Feast",
-        "description": "A family reunion turns deadly on Thanksgiving night. Search through reports, interrogations, and hidden evidence to uncover who poisoned Arthur Holloway — and why.",
-        "imageUrl": "/mystora-site/images/Murder-at-the-Thanksgiving-Feast.png",
-        "etsyLink": "https://www.etsy.com/listing/4396850517/the-last-thanksgiving-printable-murder?sr_prefetch=0&pf_from=shop_home&ref=shop_home_active_1&pro=1&sts=1&dd=1"
-    },
-    {
         "id": "silent-night-deadly-secret",
         "title": "Silent Night, Deadly Secret",
         "description": "A Christmas gala turns deadly when a man dressed as Santa collapses beside the glowing tree. Follow the reports, interviews, and digital clues to uncover who poisoned Harold Finch — and why.",
         "imageUrl": "/mystora-site/images/Silent-Night.png",
         "etsyLink": "https://www.etsy.com/listing/4400782550/silent-night-deadly-secret-christmas?sr_prefetch=0&pf_from=shop_home&ref=shop_home_active_1&pro=1&sts=1&dd=1&logging_key=ff99885dffe9665266bce3fa33c25d2d773b06ae%3A4400782550"
-    },
-    {
-        "id": "the-silent-thanksgiving",
-        "title": "The Silent Thanksgiving",
-        "description": "A chilling Thanksgiving mystery set in a storm-battered mansion. Derek Harper is found dead in Room 3B at dawn — no struggle, no marks, only silence. Every family member hides something… but who turned that silence into murder?",
-        "imageUrl": "/mystora-site/images/the-silent-thanksgiving.png",
-        "etsyLink": "https://www.etsy.com/listing/________"
     }
 ]

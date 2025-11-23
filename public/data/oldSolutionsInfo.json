@@ -1,13 +1,5 @@
 [
     {
-        "slug": "the-last-note",
-        "title": "The Last Note",
-        "type": "text",
-        "prompt": "Who was the killer?",
-        "answer": "julian harris",
-        "fullSolutionText": "You uncovered the truth. Julian Harris manipulated the evidence to frame Meredith Addison."
-    },
-    {
         "slug": "one-hour-left",
         "title": "One Hour Left",
         "type": "choice",
@@ -368,18 +360,6 @@
         "cta": "Play another case"
     },
     {
-        "slug": "Murder-at-the-Thanksgiving-Feast",
-        "title": "Murder at the Thanksgiving Feast",
-        "type": "text",
-        "prompt": "Who poisoned Arthur Holloway?",
-        "answer": [
-            "catherine boone",
-            "boone",
-            "catherine"
-        ],
-        "fullSolutionText": "Catherine Boone poisoned Arthur Holloway. Years ago, Arthur’s company, Holloway Holdings, covered up a factory accident that killed Daniel Boone — Catherine’s husband. The case was buried, and Arthur lived with that secret while Catherine raised their son, Liam, in silence. When Arthur decided to revise his will to publicly make amends, Catherine knew his confession would come too late to matter. On Thanksgiving night, she poured his final glass of wine, laced with arsenic, and left him to the same quiet fate he had given her family years before. She did not act out of rage, but out of a cold, deliberate sense of balance — the kind of justice Arthur once denied others."
-    },
-    {
         "slug": "silent-night-deadly-secret",
         "title": "Silent Night, Deadly Secret",
         "type": "text",
@@ -418,17 +398,5 @@
         },
         "version": "2025-11-07a",
         "cta": "Play another case"
-    },
-    {
-        "slug": "the-silent-thanksgiving",
-        "title": "The Silent Thanksgiving",
-        "type": "text",
-        "prompt": "Who silenced Derek Harper that stormy Thanksgiving night — and why?",
-        "answer": [
-            "noah reed",
-            "noah",
-            "reed"
-        ],
-        "fullSolutionText": "Noah Reed is the one who silenced Derek Harper. The evidence converges around him: the fingerprint on the photo frame beside Derek’s bed, the tense 1:58 AM phone call where Derek demanded control over Noah once again, and Noah being the only person awake, calm, and unaccounted for during the critical time window. Derek’s long history of manipulation—turning Noah’s scholarship into a form of ownership—had pushed Noah into years of resentment and quiet suffering. On Thanksgiving night, after Derek attempted to confront Lydia, he redirected his anger toward Noah, escalating their final call. Emotionally exhausted and driven by a need to end the cycle, Noah returned to Room 3B while Derek slept. The smothering left no defensive wounds, matching the forensics. He acted not out of rage, but out of a cold, steady resolve: to end Derek’s control the same way it had always been exercised—quietly, subtly, and without a sound."
     }
 ]
