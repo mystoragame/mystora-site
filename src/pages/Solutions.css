@@ -4,7 +4,7 @@
   padding: 60px 40px;
   background-color: #f4f4f4;
   min-height: 100vh;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   max-height: 65vh;
   overflow-y: auto;
   padding-right: 8px;
@@ -50,6 +50,7 @@
 }
 
 .solution-card {
+  color: #000;
   background: #fff;
   padding: 20px;
   border-radius: 12px;
@@ -66,6 +67,7 @@
 
 /* === Modal === */
 .solution-modal {
+  color: #000;
   background: #fff;
   padding: 30px;
   border-radius: 12px;
