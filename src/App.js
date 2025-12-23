@@ -6,7 +6,6 @@ import About from './pages/About';
 import Games from './pages/Games';
 import Solutions from './pages/Solutions';
 import './App.css';
-// rebuild-test
 
 
 function App() {
