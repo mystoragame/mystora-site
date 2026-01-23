@@ -168,3 +168,167 @@ button:hover {
   max-height: 50vh;
   overflow-y: auto;
 }
+
+@media (max-width: 600px) {
+  .solutions-wrapper {
+    padding: 60px 40px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    font-family: "Georgia", serif;
+    max-height: 65vh;
+    overflow-y: auto;
+  }
+}
+/* =========================
+   Choice Cards (Valentine)
+   ========================= */
+
+.choiceWrap {
+  margin: 10px 0 14px;
+}
+
+.choiceGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 520px) {
+  .choiceGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.choiceCard {
+  width: 100%;
+  text-align: left;
+  padding: 14px 14px;
+  border-radius: 12px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  cursor: pointer;
+  transition:
+    transform 0.08s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.choiceCard:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+}
+
+.choiceCard:active {
+  transform: translateY(0px);
+}
+
+.choiceTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.choiceTitle {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.choicePill {
+  color: #000;
+  font-size: 0.78rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+.choiceSubtitle {
+  font-size: 0.92rem;
+  color: #c5c5c5;
+  margin-bottom: 6px;
+}
+
+.choiceFull {
+  font-size: 0.88rem;
+  color: #c5c5cc;
+  line-height: 1.35;
+}
+
+/* Selected state */
+.choiceCard.is-selected {
+  border-color: #111;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+}
+
+.choiceCard.is-selected .choicePill {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+/* Valentine theme: subtle rose accents (still classy) */
+.choiceWrap.is-valentine .choiceCard.is-selected {
+  border-color: #8a1f3d;
+}
+
+.choiceWrap.is-valentine .choiceCard.is-selected .choicePill {
+  border-color: #8a1f3d;
+  background: #8a1f3d;
+}
+
+/* Helper note */
+.choiceFootNote {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.choiceResultText {
+  max-height: 180px;
+  overflow: auto;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+}
+
+.choicePara {
+  margin: 0 0 10px;
+  line-height: 1.65;
+}
+.choicePara:last-child {
+  margin-bottom: 0;
+}
+
+.choiceResultHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.finalToggleBtn {
+  border: 1px solid #222;
+  background: #fff;
+  color: #111;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .solution-modal {
+    width: calc(100% - 24px);
+    max-width: none;
+    margin: 12px;
+    padding: 16px;
+    max-height: calc(100vh - 24px);
+    overflow-y: auto;
+    border-radius: 14px;
+  }
+}

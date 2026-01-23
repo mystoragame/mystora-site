@@ -420,5 +420,58 @@
     },
     "version": "2025-11-07a",
     "cta": "Play another case"
+  },
+  {
+    "slug": "the-silence-of-love",
+    "title": "The Silence of Love — Final Decision",
+    "type": "choice",
+    "mode": "singleCorrect",
+    "theme": "valentine",
+    "prompt": "Before you close this case, choose what you believe the confession truly meant.",
+    "options": [
+      "Declan committed the crime and confessed out of guilt.",
+      "Declan confessed to protect someone else.",
+      "The confession cannot be trusted — the truth is incomplete.",
+      "This case was shaped by silence long before the crime occurred."
+    ],
+    "correctOption": "Declan confessed to protect someone else.",
+    "optionMeta": {
+      "Declan committed the crime and confessed out of guilt.": {
+        "title": "Guilt",
+        "subtitle": "A confession is closure — even if it feels too clean."
+      },
+      "Declan confessed to protect someone else.": {
+        "title": "Protection",
+        "subtitle": "Some people confess to keep love from becoming evidence."
+      },
+      "The confession cannot be trusted — the truth is incomplete.": {
+        "title": "Doubt",
+        "subtitle": "What’s missing may be louder than what was said."
+      },
+      "This case was shaped by silence long before the crime occurred.": {
+        "title": "Silence",
+        "subtitle": "Some crimes begin years before the final moment."
+      }
+    },
+    "feedback": {
+      "correct": {
+        "headline": "Final Insight",
+        "text": "The confession was never about guilt.\nAnd it was never meant to tell the whole truth.\n\nDeclan didn’t confess because he was the killer.\nHe confessed because he was the only one who truly understood what had happened —\nand what it would cost if the truth ever surfaced.\n\nHe saw the motive long before the evidence.\nHe recognized the weight of years carried in silence, resentment left unspoken, and a wound that was never allowed to heal.\n\nWhen the moment came, he made a choice that had nothing to do with justice —\nand everything to do with love.\n\nDeclan chose to become the ending this story needed,\nso the person he loved wouldn’t have to live with its consequences."
+      },
+      "incorrect": {
+        "Declan committed the crime and confessed out of guilt.": {
+          "headline": "Look Again",
+          "text": "Declan’s composure can look like guilt — but it can also be control. In this case, the calm isn’t the truth. It’s the cover."
+        },
+        "The confession cannot be trusted — the truth is incomplete.": {
+          "headline": "Close, But Not Quite",
+          "text": "You’re right to distrust confessions. But here, the missing piece isn’t the event — it’s the motive behind the confession."
+        },
+        "This case was shaped by silence long before the crime occurred.": {
+          "headline": "True… And Still Incomplete",
+          "text": "Silence shaped everything — but it doesn’t explain why one person would choose to wear the blame. This confession wasn’t just silence. It was devotion."
+        }
+      }
+    }
   }
 ]
