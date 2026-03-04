@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mystora-site/static/css/main.9a7bfa07.css",
-    "main.js": "/mystora-site/static/js/main.c8f36bb7.js",
+    "main.js": "/mystora-site/static/js/main.914ef432.js",
     "static/js/453.1d403854.chunk.js": "/mystora-site/static/js/453.1d403854.chunk.js",
     "index.html": "/mystora-site/index.html",
     "main.9a7bfa07.css.map": "/mystora-site/static/css/main.9a7bfa07.css.map",
-    "main.c8f36bb7.js.map": "/mystora-site/static/js/main.c8f36bb7.js.map",
+    "main.914ef432.js.map": "/mystora-site/static/js/main.914ef432.js.map",
     "453.1d403854.chunk.js.map": "/mystora-site/static/js/453.1d403854.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a7bfa07.css",
-    "static/js/main.c8f36bb7.js"
+    "static/js/main.914ef432.js"
   ]
 }
