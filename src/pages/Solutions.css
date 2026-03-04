@@ -179,6 +179,7 @@ button:hover {
     overflow-y: auto;
   }
 }
+
 /* =========================
    Choice Cards (Valentine)
    ========================= */
@@ -300,6 +301,7 @@ button:hover {
   margin: 0 0 10px;
   line-height: 1.65;
 }
+
 .choicePara:last-child {
   margin-bottom: 0;
 }
@@ -321,6 +323,7 @@ button:hover {
   font-weight: 600;
   cursor: pointer;
 }
+
 @media (max-width: 600px) {
   .solution-modal {
     width: calc(100% - 24px);

@@ -4,7 +4,11 @@
     "title": "Murder at the Thanksgiving Feast",
     "type": "text",
     "prompt": "Who poisoned Arthur Holloway?",
-    "answer": ["catherine boone", "boone", "catherine"],
+    "answer": [
+      "catherine boone",
+      "boone",
+      "catherine"
+    ],
     "fullSolutionText": "Catherine Boone poisoned Arthur Holloway. Years ago, Arthur’s company, Holloway Holdings, covered up a factory accident that killed Daniel Boone — Catherine’s husband. The case was buried, and Arthur lived with that secret while Catherine raised their son, Liam, in silence. When Arthur decided to revise his will to publicly make amends, Catherine knew his confession would come too late to matter. On Thanksgiving night, she poured his final glass of wine, laced with arsenic, and left him to the same quiet fate he had given her family years before. She did not act out of rage, but out of a cold, deliberate sense of balance — the kind of justice Arthur once denied others."
   },
   {
@@ -12,7 +16,11 @@
     "title": "The Silent Thanksgiving",
     "type": "text",
     "prompt": "Who silenced Derek Harper that stormy Thanksgiving night — and why?",
-    "answer": ["noah reed", "noah", "reed"],
+    "answer": [
+      "noah reed",
+      "noah",
+      "reed"
+    ],
     "fullSolutionText": "Noah Reed is the one who silenced Derek Harper. The evidence converges around him: the fingerprint on the photo frame beside Derek’s bed, the tense 1:58 AM phone call where Derek demanded control over Noah once again, and Noah being the only person awake, calm, and unaccounted for during the critical time window. Derek’s long history of manipulation—turning Noah’s scholarship into a form of ownership—had pushed Noah into years of resentment and quiet suffering. On Thanksgiving night, after Derek attempted to confront Lydia, he redirected his anger toward Noah, escalating their final call. Emotionally exhausted and driven by a need to end the cycle, Noah returned to Room 3B while Derek slept. The smothering left no defensive wounds, matching the forensics. He acted not out of rage, but out of a cold, steady resolve: to end Derek’s control the same way it had always been exercised—quietly, subtly, and without a sound."
   },
   {
@@ -120,7 +128,11 @@
     "verdict": {
       "q1": {
         "prompt": "Given the evidence, is the death a:",
-        "options": ["Suicide", "Murder", "Undetermined"],
+        "options": [
+          "Suicide",
+          "Murder",
+          "Undetermined"
+        ],
         "answer": "Murder"
       },
       "q2": {
@@ -166,7 +178,11 @@
     "title": "The Memory Loop",
     "type": "text",
     "prompt": "Enter the single-word answer to break the memory loop.",
-    "answer": ["CYCLE", "LOOP", "REPEAT"],
+    "answer": [
+      "CYCLE",
+      "LOOP",
+      "REPEAT"
+    ],
     "fullSolutionText": "Loop broken. You’ve escaped the cycle of memory."
   },
   {
@@ -174,7 +190,11 @@
     "title": "The Lighthouse Keeper: Murder at Hollow Point",
     "type": "text",
     "prompt": "Who killed Thomas Hale?",
-    "answer": ["captain edwin marsh", "edwin marsh", "marsh"],
+    "answer": [
+      "captain edwin marsh",
+      "edwin marsh",
+      "marsh"
+    ],
     "fullSolutionText": "Captain Edwin Marsh confronted Thomas Hale inside the lighthouse during the storm of November 3rd, 1989. Their long-standing resentment and jealousy over Lydia Hale led to a violent argument. Hale fell from the staircase after being struck during the struggle, hitting the railing before the floor. The dual impact found in the forensic report confirms this. To avoid scandal and protect the town’s reputation, Chief Griggs ordered the death ruled as accidental, and Noah Price manipulated the weather records to erase the crucial 23:10–23:40 window. For decades, Hollow Point lived by silence—its people choosing peace over truth. You’ve uncovered what the sea and the storm tried to bury."
   },
   {
@@ -190,7 +210,11 @@
     "title": "Maze: Final Exit Code",
     "prompt": "Enter the 6-digit direction code as LEFT (L) and RIGHT (R), e.g., LRLRRL",
     "type": "text",
-    "answer": ["LRLRRL", "lrlrrl", "LrLrRl"],
+    "answer": [
+      "LRLRRL",
+      "lrlrrl",
+      "LrLrRl"
+    ],
     "fullSolutionText": "You found the correct exit path through the maze. Welcome back from the dark."
   },
   {
@@ -198,7 +222,10 @@
     "title": "A Deadly Encore – Solo Detective Game",
     "type": "text",
     "prompt": "Who do you think committed the murder?",
-    "answer": ["lena", "Lena Hart"],
+    "answer": [
+      "lena",
+      "Lena Hart"
+    ],
     "fullSolutionText": "You’ve uncovered the truth behind A Deadly Encore. Justice is served."
   },
   {
@@ -206,7 +233,12 @@
     "title": "The Last Appointment",
     "type": "text",
     "prompt": "Who killed Dr. Rachel Lorne?",
-    "answer": ["dr sienna hale", "sienna hale", "sienna", "hale"],
+    "answer": [
+      "dr sienna hale",
+      "sienna hale",
+      "sienna",
+      "hale"
+    ],
     "fullSolutionText": "You traced the timing, inconsistencies, and pharmacology. Dr. Sienna Hale is the killer.",
     "reveal": {
       "verdict": "Homicide by Dr. Sienna Hale",
@@ -302,7 +334,12 @@
     "title": "Forty-Eight Hours: A Cyanide Mystery",
     "type": "text",
     "prompt": "Who poisoned Ethan Cole?",
-    "answer": ["daniel harper", "harper", "mr harper", "daniel"],
+    "answer": [
+      "daniel harper",
+      "harper",
+      "mr harper",
+      "daniel"
+    ],
     "fullSolutionText": "You pieced together the forensics, receipts, and draft article. Daniel Harper is guilty.",
     "reveal": {
       "verdict": "Homicide by Daniel Harper",
@@ -339,7 +376,11 @@
     "title": "The Fifth Witness",
     "type": "text",
     "prompt": "Who was the fifth witness?",
-    "answer": ["mercer", "detective mercer", "d.r. mercer"],
+    "answer": [
+      "mercer",
+      "detective mercer",
+      "d.r. mercer"
+    ],
     "fullSolutionText": "You found the truth. The fifth witness never existed — he was the detective who wrote the reports, signed the autopsy, and hid behind his own handwriting. Detective Mercer was at the scene, his memory split into four voices so he could live with what he’d done. The lavender on her hands, the reflection in the glass, the erased minutes... were all his. He didn’t remember her death — he remembered the guilt."
   },
   {
@@ -347,7 +388,10 @@
     "title": "Trick or Treat Gone Wrong",
     "type": "text",
     "prompt": "Who murdered Brooke Miller on Halloween night?",
-    "answer": ["noah", "noah price"],
+    "answer": [
+      "noah",
+      "noah price"
+    ],
     "fullSolutionText": "You uncovered the truth: Noah Price engineered the perfect blackout to silence Brooke Miller — and the town’s forgotten secret.",
     "reveal": {
       "verdict": "Homicide by Noah Price",
@@ -390,7 +434,11 @@
     "title": "Murder Under the Christmas Lights",
     "type": "text",
     "prompt": "Who killed Harold Finch at the Evergreen Charity Gala?",
-    "answer": ["tina mallory", "mallory", "tina"],
+    "answer": [
+      "tina mallory",
+      "mallory",
+      "tina"
+    ],
     "fullSolutionText": "You uncovered the truth. Event coordinator Tina Mallory orchestrated Harold Finch’s death during the blackout at the Evergreen Charity Gala. She poisoned his mulled wine moments before cutting the power to mask the act. Motive: revenge for years of manipulation and professional humiliation under Finch’s control. Method: ethyl cyanohydrin, introduced through the drink during her timed call to the bar at 8:13 PM. Evidence: the bar call record, Nick Carson’s statement about a woman’s voice giving orders, and Tina’s final message — 'Everyone will get exactly what they deserve.'",
     "reveal": {
       "verdict": "Homicide by Tina Mallory",
@@ -427,24 +475,24 @@
     "type": "choice",
     "mode": "singleCorrect",
     "theme": "valentine",
-    "prompt": "Before you close this case, choose what you believe the confession truly meant.",
+    "prompt": "Before you close this case, choose what you believe Declan’s decision truly meant.",
     "options": [
-      "Declan committed the crime and confessed out of guilt.",
-      "Declan confessed to protect someone else.",
-      "The confession cannot be trusted — the truth is incomplete.",
+      "Declan did it — and the choice was driven by guilt.",
+      "Declan took the blame to protect someone else.",
+      "Declan’s account can’t be trusted — the truth is incomplete.",
       "This case was shaped by silence long before the crime occurred."
     ],
-    "correctOption": "Declan confessed to protect someone else.",
+    "correctOption": "Declan took the blame to protect someone else.",
     "optionMeta": {
-      "Declan committed the crime and confessed out of guilt.": {
+      "Declan did it — and the choice was driven by guilt.": {
         "title": "Guilt",
-        "subtitle": "A confession is closure — even if it feels too clean."
+        "subtitle": "Sometimes a clean ending is just someone carrying the weight."
       },
-      "Declan confessed to protect someone else.": {
+      "Declan took the blame to protect someone else.": {
         "title": "Protection",
-        "subtitle": "Some people confess to keep love from becoming evidence."
+        "subtitle": "Some people take the blame to keep love from becoming evidence."
       },
-      "The confession cannot be trusted — the truth is incomplete.": {
+      "Declan’s account can’t be trusted — the truth is incomplete.": {
         "title": "Doubt",
         "subtitle": "What’s missing may be louder than what was said."
       },
@@ -456,20 +504,20 @@
     "feedback": {
       "correct": {
         "headline": "Final Insight",
-        "text": "The confession was never about guilt.\nAnd it was never meant to tell the whole truth.\n\nDeclan didn’t confess because he was the killer.\nHe confessed because he was the only one who truly understood what had happened —\nand what it would cost if the truth ever surfaced.\n\nHe saw the motive long before the evidence.\nHe recognized the weight of years carried in silence, resentment left unspoken, and a wound that was never allowed to heal.\n\nWhen the moment came, he made a choice that had nothing to do with justice —\nand everything to do with love.\n\nDeclan chose to become the ending this story needed,\nso the person he loved wouldn’t have to live with its consequences."
+        "text": "This ending was never about guilt.\nAnd it was never meant to tell the whole truth.\n\nDeclan didn’t step forward because he was the killer.\nHe stepped forward because he understood what had happened —\nand what it would cost if the truth ever surfaced.\n\nHe recognized the weight of years carried in silence,\nresentment left unspoken, and a wound that was never allowed to heal.\n\nWhen the moment came, he made a choice that had nothing to do with justice —\nand everything to do with love.\n\nDeclan chose to become the ending this story needed,\nso the person he loved wouldn’t have to live with its consequences."
       },
       "incorrect": {
-        "Declan committed the crime and confessed out of guilt.": {
+        "Declan did it — and the choice was driven by guilt.": {
           "headline": "Look Again",
           "text": "Declan’s composure can look like guilt — but it can also be control. In this case, the calm isn’t the truth. It’s the cover."
         },
-        "The confession cannot be trusted — the truth is incomplete.": {
+        "Declan’s account can’t be trusted — the truth is incomplete.": {
           "headline": "Close, But Not Quite",
-          "text": "You’re right to distrust confessions. But here, the missing piece isn’t the event — it’s the motive behind the confession."
+          "text": "You’re right to distrust simple endings. But here, the missing piece isn’t the event — it’s the motive behind Declan’s choice."
         },
         "This case was shaped by silence long before the crime occurred.": {
           "headline": "True… And Still Incomplete",
-          "text": "Silence shaped everything — but it doesn’t explain why one person would choose to wear the blame. This confession wasn’t just silence. It was devotion."
+          "text": "Silence shaped everything — but it doesn’t explain why one person would choose to wear the blame. This wasn’t only silence. It was devotion."
         }
       }
     }

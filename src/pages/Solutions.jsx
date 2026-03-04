@@ -287,8 +287,8 @@ const Solutions = () => {
           fb || {
             headline: ok ? "Final Insight" : "Look Again",
             text: ok
-              ? "Your decision aligns with the hidden motive behind the confession."
-              : "This choice explains part of the case — but not the confession.",
+              ? "Your decision aligns with the hidden motive behind Declan’s choice."
+              : "This choice explains part of the case — but not the full reason behind Declan’s choice.",
           },
         );
         setShowFinal(ok);
@@ -483,7 +483,7 @@ const Solutions = () => {
 
                 <div className="choiceFootNote">
                   Choose carefully. One interpretation best fits the evidence —
-                  and the motive behind the confession.
+                  and the motive behind Declan’s choice.
                 </div>
               </div>
             ) : null}
