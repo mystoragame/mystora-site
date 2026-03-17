@@ -521,5 +521,45 @@
         }
       }
     }
+  },
+  {
+    "slug": "easter-echoes",
+    "title": "Easter Echoes: What We Forgot",
+    "type": "verdict",
+    "prompt": "Submit your final verdict for Easter Echoes.",
+    "verdict": {
+      "q1": {
+        "prompt": "Given the evidence, Daniel Harper's death was:",
+        "options": [
+          "Accident",
+          "Murder",
+          "Undetermined"
+        ],
+        "answer": "Murder"
+      },
+      "q2": {
+        "prompt": "If you believe it was murder, who is most responsible?",
+        "options": [
+          "Nathan Cole",
+          "Scarlett Voss",
+          "Olivia Harper",
+          "Liam Harper",
+          "Emily Harper",
+          "Other"
+        ],
+        "answer": "Nathan Cole"
+      }
+    },
+    "incorrect": {
+      "generic": "Not quite. Recheck the repeated use of the word 'accident,' the stuffed rabbit, and who had the strongest reason to fear the past being exposed.",
+      "bySuspect": {
+        "Scarlett Voss": "Scarlett is close to the emotional center of the case, but her statements feel more like partial knowledge than control. She seems to know something happened, not to have caused it.",
+        "Olivia Harper": "Olivia is tied to the forgotten past, but the evidence does not place her at the center of the final confrontation.",
+        "Liam Harper": "Liam adds tension and suspicion, but his role is secondary. He carries fragments, not the full burden of what happened.",
+        "Emily Harper": "Emily contributes emotional confusion, but the motive, pressure, and contradiction do not converge strongly enough around her.",
+        "Other": "The answer needs to fit motive, fear, contradiction, and the renewed significance of the past."
+      }
+    },
+    "fullSolutionText": "Nathan Cole is the most responsible for Daniel Harper's death. What happened that night was not a random act of violence, but the return of a buried past. Years earlier, an unreported childhood incident at the Harper residence ended in severe injury to a minor — an event quietly erased instead of acknowledged. The stuffed rabbit found in the present case is not just an object; it is a surviving symbol of that forgotten night.\n\nDaniel had reached a breaking point. He no longer wanted the past to remain hidden, and the old incident was beginning to surface again through memories, objects, and fractured statements. Nathan had more to lose than anyone if the truth came out. The past did not just threaten his reputation — it threatened to redefine his role in an event everyone had agreed to bury.\n\nTheir final confrontation appears to have grown out of that fear. The repeated language in the witness statements — 'it was an accident' and 'it wasn't supposed to happen' — matters because it echoes both the past and the present. Nathan did not simply fear being blamed for Daniel's death; he feared the exposure of what had happened years before. That is what gives the case its true motive.\n\nIn the end, Easter Echoes is not only about who killed Daniel Harper. It is about what the group chose to forget, what Daniel could no longer live with in silence, and why Nathan could not allow that silence to break."
   }
 ]
