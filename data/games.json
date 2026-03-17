@@ -12,5 +12,12 @@
         "description": "A chilling Thanksgiving mystery set in a storm-battered mansion. Derek Harper is found dead in Room 3B at dawn — no struggle, no marks, only silence. Every family member hides something… but who turned that silence into murder?",
         "imageUrl": "/mystora-site/images/the-silent-thanksgiving.png",
         "etsyLink": "https://www.etsy.com/listing/________"
+    },
+    {
+        "id": "easter-echoes",
+        "title": "Easter Echoes: What We Forgot",
+        "description": "A haunting Easter mystery built around fractured memory, buried guilt, and a forgotten childhood incident. Investigate Daniel Harper's death through reports, witness statements, and symbolic evidence to uncover who broke the silence — and why.",
+        "imageUrl": "/mystora-site/images/easter-echoes-cover.png",
+        "etsyLink": "https://www.etsy.com/listing/your-link-here"
     }
 ]
