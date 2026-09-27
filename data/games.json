@@ -124,5 +124,12 @@
     "description": "A haunting Easter mystery built around fractured memory, buried guilt, and a forgotten childhood incident. Investigate Daniel Harper's death through reports, witness statements, and symbolic evidence to uncover who broke the silence — and why.",
     "imageUrl": "/mystora-site/images/easter-echoes-cover.png",
     "etsyLink": "https://www.etsy.com/listing/your-link-here"
+  },
+  {
+    "id": "the-last-house-on-willow-street",
+    "title": "The Last House on Willow Street",
+    "description": "A Halloween gathering. A locked study. A deadly secret. Examine the evidence, question five suspects, and uncover who killed Eleanor Vale.",
+    "imageUrl": "/mystora-site/images/The_Last_House_on_Willow_Street.png",
+    "etsyLink": ""
   }
 ]

@@ -561,5 +561,20 @@
       }
     },
     "fullSolutionText": "Nathan Cole is the most responsible for Daniel Harper's death. What happened that night was not a random act of violence, but the return of a buried past. Years earlier, an unreported childhood incident at the Harper residence ended in severe injury to a minor — an event quietly erased instead of acknowledged. The stuffed rabbit found in the present case is not just an object; it is a surviving symbol of that forgotten night.\n\nDaniel had reached a breaking point. He no longer wanted the past to remain hidden, and the old incident was beginning to surface again through memories, objects, and fractured statements. Nathan had more to lose than anyone if the truth came out. The past did not just threaten his reputation — it threatened to redefine his role in an event everyone had agreed to bury.\n\nTheir final confrontation appears to have grown out of that fear. The repeated language in the witness statements — 'it was an accident' and 'it wasn't supposed to happen' — matters because it echoes both the past and the present. Nathan did not simply fear being blamed for Daniel's death; he feared the exposure of what had happened years before. That is what gives the case its true motive.\n\nIn the end, Easter Echoes is not only about who killed Daniel Harper. It is about what the group chose to forget, what Daniel could no longer live with in silence, and why Nathan could not allow that silence to break."
+  },
+  {
+    "slug": "the-last-house-on-willow-street",
+    "title": "The Last House on Willow Street",
+    "type": "text",
+    "prompt": "Who killed Eleanor Vale?",
+    "answer": [
+      "Claire Whitmore",
+      "Claire",
+      "Whitmore"
+    ],
+    "incorrect": {
+      "generic": "That doesn't fully fit the evidence. Reconsider the timeline, the poisoned wine, the Vale Trust, and what each suspect knew."
+    },
+    "fullSolutionText": "Claire Whitmore killed Eleanor Vale. The locked study was designed to mislead the investigation: Eleanor did not need to be attacked inside the room for the murder to occur. The medical and forensic evidence shows that the fatal act could have taken place earlier, through the wine Eleanor consumed before entering the study. The wine glass recovered from the study contained the same deadly digitalis-type compound identified during the examination. The stopped grandfather clock at approximately 11:38 PM helps narrow the critical timeline but does not prove that the killer was inside the study at that moment. Claire's own statement places her around Eleanor shortly before this period and later places her in the kitchen, while also revealing that she knew more than most guests about Eleanor's concerns regarding the house and its financial future. The partially burned Vale Trust document shows that Clause 7 was being revised, with changes to future distributions taking effect on November 1, 1996. Although the surviving document does not identify a beneficiary, this financial change provides the hidden motive when considered alongside Claire's knowledge and relationship with Eleanor. Other suspects had arguments, secrets, suspicious movements, or reasons to lie, but those details function as distractions unless they also align with the physical evidence. Claire is the suspect whose motive, opportunity, knowledge, and the poisoned-wine timeline fit together. She poisoned Eleanor's wine before Eleanor isolated herself in the study, allowing the later locked-room scene to make the death appear impossible."
   }
 ]
